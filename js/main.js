@@ -1,19 +1,19 @@
-const searchEl = document.querySelector(".search");
-const inputEl = searchEl.querySelector("input");
+// const searchEl = document.querySelector(".search");
+// const inputEl = searchEl.querySelector("input");
 
-searchEl.addEventListener("click", function () {
-  inputEl.focus();
-});
+// searchEl.addEventListener("click", function () {
+//   inputEl.focus();
+// });
 
-inputEl.addEventListener("focus", function () {
-  searchEl.classList.add("focused");
-  inputEl.setAttribute("placeholder", "통합검색");
-});
+// inputEl.addEventListener("focus", function () {
+//   searchEl.classList.add("focused");
+//   inputEl.setAttribute("placeholder", "통합검색");
+// });
 
-inputEl.addEventListener("blur", function () {
-  searchEl.classList.remove("focused");
-  inputEl.setAttribute("placeholder", "");
-});
+// inputEl.addEventListener("blur", function () {
+//   searchEl.classList.remove("focused");
+//   inputEl.setAttribute("placeholder", "");
+// });
 
 // FADE IN
 const fadeEls = document.querySelectorAll(".visual .fade-in");
@@ -150,5 +150,5 @@ spyEls.forEach(function (spyEl) {
 });
 
 // 해당 연도 나타내기
-const thisYear = document.querySelectorAll(".this-year")
-thisYear.textContent = new Date().getFullYear();
+// const thisYear = document.querySelectorAll(".this-year")
+// thisYear.textContent = new Date().getFullYear();
